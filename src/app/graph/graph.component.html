@@ -1,0 +1,47 @@
+
+<section class = "graph" id = "graph">
+  <h1>
+    {{ 'Grades' | translate }}
+      <button (click)='ChangeToListView()' class="nav-dark btn btn-glass btn-info" >
+         {{ 'list_view' | translate }}
+      </button>
+  </h1>
+
+  <div>
+    <canvas
+      baseChart
+      [chartType]="'bar'"
+      [datasets]="chartData"
+      [labels]="labels"
+      [options]="chartOptions"
+      [legend]="false"
+      [colors]="colors"
+      (chartClick)="onChartClick($event)">
+    </canvas>
+  </div>
+</section>
+
+<section class = "grades" id = "grades">
+  <h1>
+    {{ 'Grades' | translate }}
+        <button (click)='ChangeToGraphView()' class="nav-dark btn btn-glass btn-info" >
+           {{ 'graph_view' | translate }}
+        </button>
+  </h1>
+
+  <div class ="list" id = "list">
+    <ol>
+      <li><p> {{ 'Grade_1' | translate }} </p> </li>
+      <li><p> {{ 'Grade_2' | translate }} </p></li>
+      <li><p> {{ 'Grade_3' | translate }} </p></li>
+      <li><p> {{ 'Grade_4' | translate }} </p></li>
+      <li><p> {{ 'Grade_5' | translate }} </p></li>
+      <li><p> {{ 'Grade_6' | translate }} </p></li>
+      <li><p> {{ 'Grade_7' | translate }} </p></li>
+      <li><p> {{ 'Grade_8' | translate }} </p></li>
+      <li><p> {{ 'Grade_9' | translate }} </p></li>
+    </ol>
+  </div>
+
+</section>
+

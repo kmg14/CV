@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+:root {
+  --main-color: #1596a7;
+
+  --main-nav-color: url("https://images.unsplash.com/photo-1495464101292-552d0b52fe41?auto=format&fit=crop&w=1350&q=80");
+  --hi-logo: url("https://res.cloudinary.com/dvgxfctbd/image/upload/v1572560635/build10.jpg");
+  --background-main: linear-gradient(to bottom, #e2e2e2, #ffffff);
+
+  --background-button: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  --background-card: linear-gradient(to bottom, #333030, #444040);
+  --background-link: linear-gradient(90deg, rgb(253, 253, 253) 0%, rgb(231, 222, 231) 40%, rgba(0, 0, 0, 0.28) 60%);
+  --gutter: 5.5em;
+  --maxWidth: 950px;
+}
+html, body {
+  background: var(--background-main); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-width: 600px;
+  margin: auto;
+}
+

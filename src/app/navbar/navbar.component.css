@@ -1,0 +1,87 @@
+header {
+  position: fixed;
+  width: 100%;
+  margin-top: -2.5em;
+  z-index: 1;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin-right: 0.5em;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 8em;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+/* Buttons inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 3em 2em;
+  display: block;
+  border-bottom: 1px solid darkgray;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  height: 60px;
+  margin: -8px;
+  display: flex;
+  align-items: center;
+
+  /* Background for navbar */
+  background: var(--main-nav-color);
+
+  color:white;
+  font-weight: 600;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.toolbar span {
+  font-size: 1.5em;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 1000px) {
+
+
+}
+
+
+

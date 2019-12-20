@@ -1,0 +1,70 @@
+.text {
+  align-self: center;
+  margin-top: 4em;
+  transition-duration: 200ms;
+  background: #fff;
+  border: 1px solid;
+  border-color: #587592;
+  border-radius: 5px;
+
+  width: var(--maxWidth);
+  padding-left: 1em;
+  padding-right: 1em;
+  display: inline-block;
+
+}
+
+.text p {
+  margin: 1em;
+  font-size: 1.15em;
+  line-height: 2em;
+}
+
+.text:hover {
+  transition-duration: 200ms;
+  top: -2px;
+  box-shadow: 0 9px 10px rgba(0,0,0,0.2);
+}
+
+.list ol {
+  font-style:italic;
+  font-family:Georgia, Times, serif;
+  font-size:2em;
+  color:#0d95d4;
+}
+.list ol li p {
+   padding:1em;
+   font-style:normal;
+   font-family:Arial;
+   font-size: 0.5em;
+   color:rgb(77, 65, 65);
+   border-left: 1px solid #999;
+  }
+
+.list ol li p em {
+  display:block;
+  font-size: 1.5em;
+}
+
+.list ol li:hover {
+  color : black;
+  border-right: 1px solid darkgray;
+}
+
+.TextContent {
+  margin-left: 1em;
+  margin-top:  2em;
+
+    /*Test fyrir hr image*/
+    margin-bottom: 25em;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1000px) {
+  .text, .list {
+    transition-duration: 400ms;
+    width: 40em;
+    max-width:40em;
+  }
+}
+
