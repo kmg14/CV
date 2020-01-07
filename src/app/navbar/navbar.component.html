@@ -5,12 +5,12 @@
       <div class="spacer"></div>
           <div class="dropdown">
               <button class="dropbtn">
-                <img src="https://res.cloudinary.com/dvgxfctbd/image/upload/v1570722776/menu.png" height = "60px;">
+                <img id = "menu" src="https://res.cloudinary.com/dvgxfctbd/image/upload/v1570722776/menu.png" height = "60px;">
               </button>
               <div class="dropdown-content">
-                <a ngx-scroll-to [ngx-scroll-to-offset]="400"> {{'dropdown-about' | translate }} </a>
-                <a ngx-scroll-to [ngx-scroll-to-offset]="600"> {{'dropdown-edu' | translate }} </a>
-                <a ngx-scroll-to [ngx-scroll-to-offset]="850"> {{'dropdown-grades' | translate }} </a>
+                <a  (click)='scroll__about()'> {{'dropdown-about' | translate }} </a>
+                <a  (click)='scroll__edu()'> {{'dropdown-edu' | translate }} </a>
+                <a  (click)='scroll__grades()'> {{'dropdown-grades' | translate }} </a>
               </div>
             </div>
       </div>
