@@ -24,13 +24,13 @@ export class GraphComponent implements OnInit {
   };
 
   labels =  ['Forritunarmál', 'Öryggi Tölvukerfa', 'Vefforritun 1', 'Vefforritun 2',
-            'Hugbúnaðarverkefni 2', 'Stýrikerfi', 'Gagnasafnsfræði', 'Samskipti Manns og Tölvu', 'Tölvugrafík'];
+            'Hugbúnaðarverkefni 2', 'Tölvunet og Öryggi','Stýrikerfi', 'Gagnasafnsfræði', 'Samskipti Manns og Tölvu', 'Tölvugrafík'];
 
   // Static Data fyrir Chart
   chartData = [
     {
       label: 'Einkunn',
-      data: [90, 90, 80, 80, 80, 80, 80, 100, 80]
+      data: [90, 90, 80, 80, 80, 85, 80, 80, 100, 80]
     }
   ];
 
