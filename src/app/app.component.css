@@ -47,20 +47,27 @@ hr {
 }
 
   /* Responsive Styles */
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 800px) {
     hr {
       display: none;
       margin: 0;
     }
     .button__lang {
-      left: 50rem;
+      left: 85%;
     }
     .button__lang img {
       width: 2.5em;
     }
+    /* Links */
+    .content:nth-child(3){
+      padding-bottom: 15rem;
+    }
   }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 500px) {
 
+      .button__lang {
+        left: 20rem;
+      }
     }
 
     @media screen and (min-width: 1400px) {

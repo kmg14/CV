@@ -68,3 +68,17 @@
   }
 }
 
+
+
+@media screen and (max-width: 500px) {
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 22rem;
+    height: 30rem;
+
+  }
+
+}

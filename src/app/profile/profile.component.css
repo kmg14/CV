@@ -146,11 +146,17 @@
 
 
  /* Responsive Styles */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
 
   .profile-card {
-    width: 500px;
-    min-width:40em;
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .profile-card .description h1 {
+    line-height: 1;
+    margin: 0;
+    font-size: 1rem;
   }
 
 }

@@ -65,6 +65,22 @@ img {
 
 }
 
+@media screen and (max-width: 500px) {
+
+
+  h1 {
+    font-size :1em;
+  }
+
+  .card-body {
+    border: 0.25px solid black;
+  }
+
+  img {
+    display:none;
+  }
+}
+
 
 
 
