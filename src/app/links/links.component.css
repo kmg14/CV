@@ -44,7 +44,7 @@ a {
   flex-direction: column;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: var(--background-card) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: var(--main-nav-color) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .icon {

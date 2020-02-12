@@ -42,7 +42,7 @@ hr {
   height: 45vh;
 
     position: absolute;
-    top: 150%;
+    top: 55rem;
     left: 0;
 }
 
@@ -53,7 +53,7 @@ hr {
       margin: 0;
     }
     .button__lang {
-      left: 50%;
+      left: 50rem;
     }
     .button__lang img {
       width: 2.5em;
