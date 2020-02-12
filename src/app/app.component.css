@@ -78,5 +78,16 @@ hr {
 
     }
 
+      /* Responsive Styles */
+  @media screen and (max-width: 1100px) {
+
+    hr {
+      height :20rem;
+    }
+    .button__lang {
+      left: 85%;
+    }
+  }
+
 
 
