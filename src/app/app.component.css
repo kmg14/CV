@@ -70,7 +70,7 @@ hr {
       }
     }
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 2000px) {
       hr {
         display: none;
         margin: 0;
