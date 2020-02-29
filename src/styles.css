@@ -2,11 +2,14 @@
 
 
 :root {
-  --main-color: #1596a7;
-
+  --main-color: #7ad7e4;
   --main-nav-color: url("https://images.unsplash.com/photo-1495464101292-552d0b52fe41?auto=format&fit=crop&w=1350&q=80");
   --hi-logo: url("https://res.cloudinary.com/dvgxfctbd/image/upload/v1572560635/build10.jpg");
-  --background-main: linear-gradient(to bottom, #e2e2e2, #ffffff);
+  --background-main: #232429;
+  --background-text: repeating-linear-gradient(-45deg, rgba(255, 255, 255, 0) 8%, rgba(255, 255, 255, 0.075) 10%, rgba(255, 255, 255, 0.075) 14%, rgba(255, 255, 255, 0.15) 14%, rgba(255, 255, 255, 0.15) 15%, rgba(255, 255, 255, 0.075) 17%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 36%, rgba(255, 255, 255, 0.075) 40%, rgba(255, 255, 255, 0.15) 42%, rgba(255, 255, 255, 0) 43%, rgba(255, 255, 255, 0) 55%, rgba(255, 255, 255, 0.075) 60%, rgba(255, 255, 255, 0.075) 66%, rgba(255, 255, 255, 0.15) 66%, rgba(255, 255, 255, 0.075) 70%, rgba(255, 255, 255, 0) 75%, rgba(255, 255, 255, 0) 100%), radial-gradient(ellipse farthest-corner, transparent, rgba(0, 0, 0, 0.2) 110%);
+  ;
+
+  --text-color: rgb(219, 218, 218);
 
   --background-button: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
   --background-card: linear-gradient(to bottom, #333030, #444040);
@@ -16,7 +19,9 @@
 }
 html, body {
   background: var(--background-main); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  min-width: 300px;
-  margin: auto;
+  min-width: 100px;
+  margin: 0 auto;
 }
+* { color : var(--text-color);}
+h1 {color : var(--main-color); font-weight: 200;}
 

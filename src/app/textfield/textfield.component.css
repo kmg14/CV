@@ -1,16 +1,18 @@
 .text {
   align-self: center;
   margin-top: 4em;
+  margin-bottom:2em;
   transition-duration: 200ms;
-  background: #fff;
-  border: 1px solid;
-  border-color: #587592;
-  border-radius: 5px;
-
+  background: var(--background-text);
   width: var(--maxWidth);
   padding-left: 1em;
   padding-right: 1em;
   display: inline-block;
+
+  transition: background-position 2s cubic-bezier(0, 1, 0, 1), border-color 500ms, background-color 100ms;
+  position: relative;
+  background-attachment: fixed, scroll;
+  background-position: center center, 0 0;
 
 }
 
@@ -18,6 +20,12 @@
   margin: 1em;
   font-size: 1.15em;
   line-height: 2em;
+  font-weight: 200;
+}
+
+h1 {
+   font-weight: 200;
+   font-style: bold;
 }
 
 .text:hover {
@@ -53,10 +61,7 @@
 
 .TextContent {
   margin-left: 1em;
-  margin-top:  2em;
-
-    /*Test fyrir hr image*/
-    margin-bottom: 25em;
+  margin-bottom: 50vh;
 }
 
 /* Responsive Styles */
@@ -66,11 +71,17 @@
     width: 40em;
     max-width:40em;
   }
+
+  .list {
+    font-size: 0.75em;
+    width: 35em;
+
+  }
+
 }
 
 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
 
   .text {
     display: flex;
@@ -78,7 +89,12 @@
     margin: 1rem auto;
     width: 22rem;
     height: 30rem;
-
   }
+
+  .TextContent {
+    margin-left: 1em;
+    margin-bottom: 10vh;
+  }
+
 
 }

@@ -15,30 +15,35 @@ export class GraphComponent implements OnInit {
       yAxes: [{
           ticks: {
               beginAtZero: true,
-              suggestedMax: 100
+              suggestedMax: 100,
+              fontColor: 'rgb(219, 218, 218)'
           }
       }],
       xAxes: [{
-        maxBarThickness: 70,
+        maxBarThickness: 100,
+        ticks: {
+          fontColor: 'rgb(219, 218, 218)'
+        }
       }]}
   };
 
   labels =  ['Forritunarmál', 'Öryggi Tölvukerfa', 'Vefforritun 1', 'Vefforritun 2',
-            'Hugbúnaðarverkefni 2', 'Tölvunet og Öryggi','Stýrikerfi', 'Gagnasafnsfræði', 'Samskipti Manns og Tölvu', 'Tölvugrafík'];
+            'Hugbúnaðarverkefni 2', 'Tölvunet og Öryggi', 'Stýrikerfi', 'Gagnasafnsfræði', 'Samskipti Manns og Tölvu', 'Tölvugrafík'];
+
 
   // Static Data fyrir Chart
   chartData = [
     {
       label: 'Einkunn',
-      data: [90, 90, 80, 80, 80, 85, 80, 80, 100, 80]
+      data: [90, 90, 80, 80, 80, 85, 80, 80, 100, 80],
     }
   ];
 
   // Chart Colors
   colors = [
     {
-      backgroundColor: 'rgba(30, 169, 224, 0.8)',
-      hoverBackgroundColor: 'rgba(200, 50, 100, 0.4)'
+      backgroundColor: 'rgba(30, 169, 224, 0.9)',
+      hoverBackgroundColor: 'rgba(200, 50, 100, 0.9)',
     }
   ];
 

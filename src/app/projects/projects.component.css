@@ -1,7 +1,13 @@
+@import "../textfield/textfield.component.css";
 
 h1 {
   font-size :2em;
+  font-weight: 200;
 }
+
+p {
+  font-weight: 200;
+ }
 
 a {
   text-decoration: none;
@@ -20,6 +26,7 @@ img {
 .card-horizontal {
   display: flex;
   flex: 1 1 auto;
+  padding: 1em;
 }
 
 .container {
@@ -33,19 +40,12 @@ img {
   min-width: 20em;
 }
 
-@media screen and (max-width: 800px) {
-  img, .card-body {
-    margin-top: -20em;
-  }
-}
-
-
 
 @media screen and (min-width: 1000px) {
 
 
 img {
-  width: 500px;
+  width: 400px;
 }
 
 .card-horizontal {
@@ -53,23 +53,19 @@ img {
   flex: 1 1 auto;
 }
 
-.container {
-  margin-top: var(--gutter);
-}
-
 .card-body {
   margin-left: 1em;
   max-width: 40em;
-  min-width: 30em;
+  min-width: 20em;
 }
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
 
 
   h1 {
-    font-size :1em;
+    font-size : 1.5em;
   }
 
   img {
