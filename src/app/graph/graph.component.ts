@@ -42,8 +42,8 @@ export class GraphComponent implements OnInit {
   // Chart Colors
   colors = [
     {
-      backgroundColor: 'rgba(30, 169, 224, 0.9)',
-      hoverBackgroundColor: 'rgba(200, 50, 100, 0.9)',
+      backgroundColor: 'rgba(30, 169, 224, 1)',
+      hoverBackgroundColor: 'rgba(200, 50, 100, 1)',
     }
   ];
 
