@@ -100,3 +100,9 @@
     top: 100px;
  }
 }
+
+@media screen and (max-width: 750px) {
+  .concept {
+    display:none;
+  }
+}
