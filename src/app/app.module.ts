@@ -13,6 +13,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ProjectsComponent } from './projects/projects.component';
+import { ToolbarComponent } from './toolbar/toolbar.component';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
@@ -26,7 +27,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     NavbarComponent,
     TextfieldComponent,
     GraphComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ToolbarComponent
   ],
   imports: [
     BrowserModule,

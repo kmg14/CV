@@ -43,8 +43,13 @@ a {
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  transition: all 0.3s ease;
-  background: var(--main-nav-color) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  align-self: center;
+  margin-top: 4em;
+  margin-bottom:2em;
+  background: var(--background-text);
+  width: var(--maxWidth);
+  background-attachment: fixed, scroll;
+  background-position: center center, 0 0;
 }
 
 .icon {
